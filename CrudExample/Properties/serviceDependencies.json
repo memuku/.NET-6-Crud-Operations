@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "mongodb1": {
-      "type": "mongodb",
-      "connectionId": "ConnectionStrings:s",
-      "dynamicId": null
-    }
-  }
-}
