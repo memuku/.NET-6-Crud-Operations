@@ -8,14 +8,14 @@ using Nest;
 
 namespace Business.Services
 {
-    public class LawyerService:ILawyerService
+    public class LawService:ILawService
     {
         private readonly IMongoCollection<User> _userCollection;
         private readonly IMapper _mapper;
 
         
 
-        public LawyerService(IMongoDatabase mongoDatabase, IMapper mapper)
+        public LawService(IMongoDatabase mongoDatabase, IMapper mapper)
         {
             _userCollection = mongoDatabase.GetCollection<User>("USER");
             _mapper = mapper;
