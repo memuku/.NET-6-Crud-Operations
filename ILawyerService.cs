@@ -3,7 +3,7 @@ using Data;
 
 namespace Business.Interfaces
 {
-    public interface ILawyerService
+    public interface ILawService
     {
         
 
