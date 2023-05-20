@@ -4,16 +4,16 @@ using Data;
 using Data.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Müvekkil_.Controllers
+namespace _.Controllers
 {
     [ApiController]
     [Route("[controller]")]
     public class UserController : ControllerBase
     {
-        private readonly ILawyerService _iuserservice;
+        private readonly ILawService _iuserservice;
         private readonly IMapper _mapper;
 
-        public UserController(ILawyerService iuserservice, IMapper mapper)
+        public UserController(ILawService iuserservice, IMapper mapper)
         {
             _iuserservice = iuserservice;
             _mapper = mapper;
